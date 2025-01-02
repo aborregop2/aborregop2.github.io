@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+
+  /* Style for the subgrades list */
+  .subgrades {
+    margin-left: 20px;
+    /* Indentation */
+    font-size: 0.9em;
+    /* Smaller font size */
+  }
+
+  .subgrades li {
+    list-style-type: disc;
+    /* You can also change this to square, circle, etc. */
+    color: #555;
+    /* Slightly lighter color for the sub-items */
+  }
+
+  /* Body styling */
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+  /* Centered layout for the main container */
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+
+  h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+
+  /* Styling lists */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+
+  /* Styling links */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  li b {
+    color: #34495e;
+  }
+
+  /* Box for the image and the caption */
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Image caption styling */
+  img+p {
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+  }
+
+  /* Styling for HR elements */
+  hr {
+    border: 0;
+    height: 2px;
+    background: #3498db;
+    margin: 30px 0;
+  }
+
+  /* FAQ section */
+  .faq p {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    color: #2c3e50;
+  }
+
+  .faq img {
+    width: 155px;
+    height: 256px;
+  }
+
+  /* Responsive layout for smaller devices */
+  @media screen and (max-width: 768px) {
+    main {
+      padding: 10px;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+  }
+
+  nav {
+    background: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .gallery img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+  }
+
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #7f8c8d;
+  }
+
+  /* Style the image */
+  .lecture-notes-image {
+    flex: 1;
+    max-width: 20%;
+    /* Adjust width as needed */
+    margin-left: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
